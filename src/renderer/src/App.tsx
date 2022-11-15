@@ -7,12 +7,6 @@ function App(): JSX.Element {
     <Routes>
       <Route index path="/" element={<Page1 />} />
       <Route index path="/page2" element={<Page2 />} />
-
-      {/* <Route element={<ProtectedRoute isAllowed={true} />}>
-      <Route path="/equipo" element={<EquipoMicrofinanzas />} />
-      <Route path="/dashboard" element={<Login />} />
-      <Route path="/next" element={<div>Next</div>} />
-    </Route> */}
     </Routes>
   )
 }
